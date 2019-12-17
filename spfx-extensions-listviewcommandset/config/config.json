@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "modal-dialog-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/modalDialog/ModalDialogCommandSet.js",
+          "manifest": "./src/extensions/modalDialog/ModalDialogCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ModalDialogCommandSetStrings": "lib/extensions/modalDialog/loc/{locale}.js"
+  }
+}

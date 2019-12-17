@@ -1,0 +1,61 @@
+{
+  "id": "78c7b88e-c176-4694-b95d-1b371279b6e8",
+  "alias": "ModalDialogCommandSet",
+  "componentType": "Extension",
+  "extensionType": "ListViewCommandSet",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "items": {
+    "COMMAND_1": {
+      "title": {
+        "default": "Command One"
+      },
+      "iconImageUrl": "icons/request.png",
+      "type": "command"
+    },
+    "COMMAND_2": {
+      "title": {
+        "default": "Command Two"
+      },
+      "iconImageUrl": "icons/cancel.png",
+      "type": "command"
+    }
+  },
+  "loaderConfig": {
+    "entryModuleId": "modal-dialog-command-set",
+    "internalModuleBaseUrls": [
+      "https://localhost:4321/"
+    ],
+    "scriptResources": {
+      "modal-dialog-command-set": {
+        "type": "path",
+        "path": "dist/modal-dialog-command-set.js"
+      },
+      "ModalDialogCommandSetStrings": {
+        "defaultPath": "lib/extensions/modalDialog/loc/en-us.js",
+        "type": "localizedPath"
+      },
+      "@microsoft/decorators": {
+        "type": "component",
+        "version": "1.6.0",
+        "id": "f97266fb-ccb7-430e-9384-4124d05295d3"
+      },
+      "@microsoft/sp-core-library": {
+        "type": "component",
+        "version": "1.6.0",
+        "id": "7263c7d0-1d6a-45ec-8d85-d4d1d234171b"
+      },
+      "@microsoft/sp-listview-extensibility": {
+        "type": "component",
+        "version": "1.6.0",
+        "id": "d37b65ee-c7d8-4570-bc74-2b294ff3b380"
+      },
+      "@microsoft/sp-dialog": {
+        "type": "component",
+        "version": "1.6.0",
+        "id": "c0c518b8-701b-4f6f-956d-5782772bb731"
+      }
+    }
+  }
+}

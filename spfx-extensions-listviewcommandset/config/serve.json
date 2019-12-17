@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/ModernCommunicationBlank/Lists/Projects/AllItems.aspx",
+      "customActions": {
+        "78c7b88e-c176-4694-b95d-1b371279b6e8": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    },
+    "modalDialog": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/ModernCommunicationBlank/Lists/Projects/AllItems.aspx",
+      "customActions": {
+        "78c7b88e-c176-4694-b95d-1b371279b6e8": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+            "sampleTextOne": "One item is selected in the list",
+            "sampleTextTwo": "This command is always visible."
+          }
+        }
+      }
+    }
+  }
+}
