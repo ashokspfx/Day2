@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-ooopropertypanes-client-side-solution",
+    "id": "efd9c064-c6a6-485e-990f-d4bfbdc071fe",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-ooopropertypanes.sppkg"
+  }
+}

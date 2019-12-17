@@ -1,0 +1,53 @@
+{
+  "id": "3ab55e30-aae9-4633-9feb-4e762c4ffc52",
+  "alias": "SpfxPropertyPaneWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Other"
+      },
+      "title": {
+        "default": "SPFXPropertyPane"
+      },
+      "description": {
+        "default": "SPFXPropertyPane description"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "SPFXPropertyPane"
+      }
+    }
+  ],
+  "loaderConfig": {
+    "entryModuleId": "spfx-property-pane-web-part",
+    "internalModuleBaseUrls": [
+      "https://localhost:4321/"
+    ],
+    "scriptResources": {
+      "spfx-property-pane-web-part": {
+        "type": "path",
+        "path": "dist/spfx-property-pane-web-part.js"
+      },
+      "@microsoft/sp-core-library": {
+        "type": "component",
+        "version": "1.5.1",
+        "id": "7263c7d0-1d6a-45ec-8d85-d4d1d234171b"
+      },
+      "@microsoft/sp-webpart-base": {
+        "type": "component",
+        "version": "1.5.1",
+        "id": "974a7777-0990-4136-8fa6-95d80114c2e0"
+      },
+      "@microsoft/sp-lodash-subset": {
+        "type": "component",
+        "version": "1.5.1",
+        "id": "73e1dc6c-8441-42cc-ad47-4bd3659f8a3a"
+      }
+    }
+  }
+}
